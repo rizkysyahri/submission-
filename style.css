@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 5rem;
+  margin-top: 32px;
+}
+
+.nav-h1 {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1.75rem;
+  align-items: center;
+  list-style: none;
+}
+.nav-li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* header */
+
+/* content */
+
+.section-main {
+  max-width: 768px;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+span {
+  color: rgb(6 182 212);
+}
+
+.section-judhaf {
+  font-size: 3rem;
+  line-height: 1;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  .section-judhaf {
+    line-height: 1.15;
+    font-size: 4.5rem;
+  }
+}
+
+.UHhduhwdhlafh {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 640px;
+}
+
+.ljijfealknlnufa {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.ljidaHULhdufjd {
+  text-align: center;
+}
+
+.KShfukbafubfg {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .KShfukbafubfg {
+        flex-direction: row;
+    }
+}
+
+/* content */
+
+/* aside */
+
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ILhfueadhihf {
+  background-size: cover;
+}
+
+.kawuhfehfelihef {
+  width: 100%;
+  
+}
+
+.keahfseuhfhliHf {
+    text-decoration-line: underline;
+}
+
+figure {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .kawuhfehfelihef {
+      width: 50%;
+    }
+  }
+  
+
+@media screen and (min-width: 1280px) {
+  .kawuhfehfelihef {
+    width: 50%;
+  }
+}
+
+
+/* aside */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
